@@ -1,0 +1,2487 @@
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch a
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch a
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch a
+api  (+ 1d)  auth  (+ 1d)  alpha  (+ 3d)
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+api  (+ 1d)  auth  (+ 1d)  alpha  (+ 3d)
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+api  (+ 1d)  auth  (+ 1d)  alpha  (+ 3d)
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  Tab #1 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+○ Switched to worktree for api @ ~/w/acme.api
+
+acme.api ❯
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+○ Switched to worktree for api @ ~/w/acme.api
+
+acme.api ❯ claude 'Add a test for the add function'
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api 
+
+acme ❯ wt list
+  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ main        ^|                           |     http://localhost:12107  db784ce2  1d
++ hooks   +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
+- api         _|                           |     http://localhost:13270  db784ce2  1d
++ auth        _|                           |     http://localhost:15851  db784ce2  1d
++ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+
+acme ❯ wt switch api
+○ Switched to worktree for api @ ~/w/acme.api
+
+acme.api ❯ claude 'Add a test for the add function'
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api 
+│                                  │                                                    │
+│   Opus 4.5 · API Usage Billing   │                                                    │
+│           ~/w/acme.api           │                                                    │
+╰───────────────────────────────────────────────────────────────────────────────────────╯
+
+  /model to try Opus 4.5
+
+> Add a test for the add function
+
+⏺ I'll first look at the existing code to understand the project structure and find the a
+dd function.
+
+⏺ Search(pattern: "**/*.rs")
+  ⎿  Found 1 file (ctrl+o to expand)
+
+✳ Doing… (esc to interrupt)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "fix typecheck errors"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  _|  ●  http://localhost:13270  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api 
+│                                  │                                                    │
+│   Opus 4.5 · API Usage Billing   │                                                    │
+│           ~/w/acme.api           │                                                    │
+╰───────────────────────────────────────────────────────────────────────────────────────╯
+
+  /model to try Opus 4.5
+
+> Add a test for the add function
+
+⏺ I'll first look at the existing code to understand the project structure and find the a
+dd function.
+
+⏺ Search(pattern: "**/*.rs")
+  ⎿  Found 1 file (ctrl+o to expand)
+
+✳ Doing… (esc to interrupt)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "fix typecheck errors"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  _|  ●  http://localhost:13270  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯ wsl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯ wsl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯ wsl
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯ wt switch --execute=claude --create billing -- 'Format billing amounts with cu
+rrency symbols'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯ wt switch --execute=claude --create billing -- 'Format billing amounts with cu
+rrency symbols'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  Tab #2 
+
+acme.api ❯ wt switch --execute=claude --create billing -- 'Format billing amounts with cu
+rrency symbols'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing 
+│            *  ▘▘ ▝▝  *           │                                                    │
+│                                  │                                                    │
+│   Opus 4.5 · API Usage Billing   │                                                    │
+│         ~/w/acme.billing         │                                                    │
+╰───────────────────────────────────────────────────────────────────────────────────────╯
+
+  /model to try Opus 4.5
+
+> Format billing amounts with currency symbols
+
+⏺ I'll help you format billing amounts with currency symbols. Let me first explore the co
+debase to understand the current structure and how billing amounts are handled.
+
+⏺ Explore(Explore billing codebase structure)
+
+· Musing… (esc to interrupt)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "how do I log an error?"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  _  ●  http://localhost:16156  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing 
+│            *  ▘▘ ▝▝  *           │                                                    │
+│                                  │                                                    │
+│   Opus 4.5 · API Usage Billing   │                                                    │
+│         ~/w/acme.billing         │                                                    │
+╰───────────────────────────────────────────────────────────────────────────────────────╯
+
+  /model to try Opus 4.5
+
+> Format billing amounts with currency symbols
+
+⏺ I'll help you format billing amounts with currency symbols. Let me first explore the co
+debase to understand the current structure and how billing amounts are handled.
+
+⏺ Explore(Explore billing codebase structure)
+
+· Musing… (esc to interrupt)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "how do I log an error?"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  _  ●  http://localhost:16156  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  Tab #3                               BASE 
+
+acme.billing ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  Tab #3                               BASE 
+
+acme.billing ❯ wt switch --create feature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  Tab #3                               BASE 
+
+acme.billing ❯ wt switch --create feature
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+
+acme.billing ❯ wt switch --create feature
+✓ Created branch feature and worktree from main @ ~/w/acme.feature
+◎ Running post-start project:dev:
+  npm run dev -- --port 13054
+
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-wxrfskbf/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature 
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-wxrfskbf/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  Tab #4 
+
+acme.feature ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  Tab #4 
+
+acme.feature ❯ wt switch auth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  Tab #4 
+
+acme.feature ❯ wt switch auth
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  auth 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  auth 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  auth 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  auth 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ auth         _|                           |     http://localhost:15851  db784ce2  1d
+^ main         ^|                           |     http://localhost:12107  db784ce2  1d
+- feature      ↑|                ↑1         |     http://localhost:13054  44f6674b  now
++ hooks    +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
++ api       !  –|      +5                   |     http://localhost:13270  db784ce2  1d
++ billing      _                                  http://localhost:16156  db784ce2  1d
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  auth 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ auth         _|                           |     http://localhost:15851  db784ce2  1d
+^ main         ^|                           |     http://localhost:12107  db784ce2  1d
+- feature      ↑|                ↑1         |     http://localhost:13054  44f6674b  now
++ hooks    +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
++ api       !  –|      +5                   |     http://localhost:13270  db784ce2  1d
++ billing      _                                  http://localhost:16156  db784ce2  1d
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  auth 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ auth         _|                           |     http://localhost:15851  db784ce2  1d
+^ main         ^|                           |     http://localhost:12107  db784ce2  1d
+- feature      ↑|                ↑1         |     http://localhost:13054  44f6674b  now
++ hooks    +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
++ api       !  –|      +5                   |     http://localhost:13270  db784ce2  1d
++ billing      _                                  http://localhost:16156  db784ce2  1d
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+
+
+
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ auth         _|                           |     http://localhost:15851  db784ce2  1d
+^ main         ^|                           |     http://localhost:12107  db784ce2  1d
+- feature      ↑|                ↑1         |     http://localhost:13054  44f6674b  now
++ hooks    +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
++ api       !  –|      +5                   |     http://localhost:13270  db784ce2  1d
++ billing      _                                  http://localhost:16156  db784ce2  1d
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
+
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ auth         _|                           |     http://localhost:15851  db784ce2  1d
+^ main         ^|                           |     http://localhost:12107  db784ce2  1d
+- feature      ↑|                ↑1         |     http://localhost:13054  44f6674b  now
++ hooks    +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
++ api       !  –|      +5                   |     http://localhost:13270  db784ce2  1d
++ billing      _                                  http://localhost:16156  db784ce2  1d
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
+acme.feature ❯ wt switch auth
+○ Switched to worktree for auth @ ~/w/acme.auth
+
+acme.auth ❯ wt list
+  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
+@ auth         _|                           |     http://localhost:15851  db784ce2  1d
+^ main         ^|                           |     http://localhost:12107  db784ce2  1d
+- feature      ↑|                ↑1         |     http://localhost:13054  44f6674b  now
++ hooks    +!  ↑       +2        ↑1               http://localhost:15276  b5e706d9  2h
++ api       !  –|      +5                   |     http://localhost:13270  db784ce2  1d
++ billing      _                                  http://localhost:16156  db784ce2  1d
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No content)
+
+· Doing… (esc to interrupt · 47s · ↑ 503 tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "fix typecheck errors"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  !–|  @+5  ●  http://localhost:13270  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1; echo "Exit code: $?")
+  ⎿  Running…
+
+✻ Doing… (esc to interrupt · 49s · ↓ 547 tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "fix typecheck errors"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  !–|  @+5  ●  http://localhost:13270  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main 
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No content)
+
+⏺ Bash(cargo test 2>&1; echo "Exit code: $?")
+  ⎿  Running…
+
+✻ Doing… (esc to interrupt · 49s · ↓ 547 tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "fix typecheck errors"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  !–|  @+5  ●  http://localhost:13270  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+                                            │
+⏺ Bash(cargo test 2>&1)                     │acme.api ❯
+  ⎿  (No content)                           │
+                                            │
+⏺ Bash(cargo test 2>&1)                     │
+  ⎿  (No content)                           │
+                                            │
+⏺ Bash(cargo test 2>&1 || true)             │
+  ⎿  (No content)                           │
+                                            │
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │
+      $?")                                  │
+  ⎿  Exit code: 0                           │
+                                            │
+✳ Doing… (esc to interrupt)                 │
+                                            │
+────────────────────────────────────────────│
+> Try "fix typecheck errors"                │
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+                                            │
+⏺ Bash(cargo test 2>&1)                     │acme.api ❯ git diff
+  ⎿  (No content)                           │
+                                            │
+⏺ Bash(cargo test 2>&1)                     │
+  ⎿  (No content)                           │
+                                            │
+⏺ Bash(cargo test 2>&1 || true)             │
+  ⎿  (No content)                           │
+                                            │
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │
+      $?")                                  │
+  ⎿  Exit code: 0                           │
+                                            │
+✻ Doing… (esc to interrupt)                 │
+                                            │
+────────────────────────────────────────────│
+> Try "fix typecheck errors"                │
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+                                            │
+⏺ Bash(cargo test 2>&1)                     │acme.api ❯ git diff
+  ⎿  (No content)                           │diff --git a/src/lib.rs b/src/lib.rs
+                                            │index 7237325..52cd2cd 100644
+⏺ Bash(cargo test 2>&1)                     │--- a/src/lib.rs
+  ⎿  (No content)                           │+++ b/src/lib.rs
+                                            │@@ -15,4 +15,9 @@ mod tests {
+⏺ Bash(cargo test 2>&1 || true)             │     fn test_add_negative() {
+  ⎿  (No content)                           │         assert_eq!(add(-1, 1), 0);
+                                            │     }
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │+
+      $?")                                  │+    #[test]
+  ⎿  Exit code: 0                           │+    fn test_add_zero() {
+                                            │+        assert_eq!(add(0, 0), 0);
+✻ Doing… (esc to interrupt)                 │+    }
+                                            │ }
+────────────────────────────────────────────│
+> Try "fix typecheck errors"                │
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │
+      $?")                                  │acme.api ❯ git diff
+  ⎿  Exit code: 0                           │diff --git a/src/lib.rs b/src/lib.rs
+                                            │index 7237325..52cd2cd 100644
+⏺ All tests pass. I added a new test test_ad│--- a/src/lib.rs
+d_zero that verifies the add function correc│+++ b/src/lib.rs
+tly handles adding two zeros. The test suite│@@ -15,4 +15,9 @@ mod tests {
+ now includes:                              │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+  - test_add - positive numbers (2 + 2 = 4) │     }
+  - test_add_negative - mixed positive/negat│+
+ive (-1 + 1 = 0)                            │+    #[test]
+  - test_add_zero - zeros (0 + 0 = 0)       │+    fn test_add_zero() {
+                                            │+        assert_eq!(add(0, 0), 0);
+✽ Doing… (esc to interrupt)                 │+    }
+                                            │ }
+────────────────────────────────────────────│
+> Try "fix typecheck errors"                │acme.api ❯
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │
+      $?")                                  │acme.api ❯ git diff
+  ⎿  Exit code: 0                           │diff --git a/src/lib.rs b/src/lib.rs
+                                            │index 7237325..52cd2cd 100644
+⏺ All tests pass. I added a new test test_ad│--- a/src/lib.rs
+d_zero that verifies the add function correc│+++ b/src/lib.rs
+tly handles adding two zeros. The test suite│@@ -15,4 +15,9 @@ mod tests {
+ now includes:                              │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+  - test_add - positive numbers (2 + 2 = 4) │     }
+  - test_add_negative - mixed positive/negat│+
+ive (-1 + 1 = 0)                            │+    #[test]
+  - test_add_zero - zeros (0 + 0 = 0)       │+    fn test_add_zero() {
+                                            │+        assert_eq!(add(0, 0), 0);
+────────────────────────────────────────────│+    }
+> Try "fix typecheck errors"                │ }
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │acme.api ❯
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                            │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │
+      $?")                                  │acme.api ❯ git diff
+  ⎿  Exit code: 0                           │diff --git a/src/lib.rs b/src/lib.rs
+                                            │index 7237325..52cd2cd 100644
+⏺ All tests pass. I added a new test test_ad│--- a/src/lib.rs
+d_zero that verifies the add function correc│+++ b/src/lib.rs
+tly handles adding two zeros. The test suite│@@ -15,4 +15,9 @@ mod tests {
+ now includes:                              │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+  - test_add - positive numbers (2 + 2 = 4) │     }
+  - test_add_negative - mixed positive/negat│+
+ive (-1 + 1 = 0)                            │+    #[test]
+  - test_add_zero - zeros (0 + 0 = 0)       │+    fn test_add_zero() {
+                                            │+        assert_eq!(add(0, 0), 0);
+────────────────────────────────────────────│+    }
+> Try "fix typecheck errors"                │ }
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │acme.api ❯ wt merge
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                            │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  api  billing  feature  main                  VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │
+      $?")                                  │acme.api ❯ git diff
+  ⎿  Exit code: 0                           │diff --git a/src/lib.rs b/src/lib.rs
+                                            │index 7237325..52cd2cd 100644
+⏺ All tests pass. I added a new test test_ad│--- a/src/lib.rs
+d_zero that verifies the add function correc│+++ b/src/lib.rs
+tly handles adding two zeros. The test suite│@@ -15,4 +15,9 @@ mod tests {
+ now includes:                              │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+  - test_add - positive numbers (2 + 2 = 4) │     }
+  - test_add_negative - mixed positive/negat│+
+ive (-1 + 1 = 0)                            │+    #[test]
+  - test_add_zero - zeros (0 + 0 = 0)       │+    fn test_add_zero() {
+                                            │+        assert_eq!(add(0, 0), 0);
+────────────────────────────────────────────│+    }
+> Try "fix typecheck errors"                │ }
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  ●                │acme.api ❯ wt merge
+  http://localhost:13270  | Opus 4.5        │
+                                            │
+                                            │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main                 VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │  cargo nextest run
+      $?")                                  │    Finished `test` profile [unoptimized + d
+  ⎿  Exit code: 0                           │ebuginfo] target(s) in 0.02s
+                                            │    Starting 2 tests across 1 binary
+⏺ All tests pass. I added a new test test_ad│        PASS [   0.001s] acme::tests::test_a
+d_zero that verifies the add function correc│dd
+tly handles adding two zeros. The test suite│        PASS [   0.001s] acme::tests::test_a
+ now includes:                              │dd_zeros
+                                            │------------
+  - test_add - positive numbers (2 + 2 = 4) │     Summary [   0.002s] 2 tests run: 2 pass
+  - test_add_negative - mixed positive/negat│ed, 0 skipped
+ive (-1 + 1 = 0)                            │◎ Merging 1 commit to main @ 87ef389 (no reb
+  - test_add_zero - zeros (0 + 0 = 0)       │ase needed)
+                                            │  * 87ef389 feat: add user settings module
+────────────────────────────────────────────│   src/lib.rs | 5 +++++
+> Try "fix typecheck errors"                │   1 file changed, 5 insertions(+)
+────────────────────────────────────────────│✓ Merged to main (1 commit, 1 file, +5)
+   ~/w/acme.api  !–|  @+5  ●                │◎ Removing api worktree & branch in backgrou
+  http://localhost:13270  | Opus 4.5        │nd (same commit as main, _)
+                                            │○ Switched to worktree for main @ ~/w/acme
+                                            │
+                                            │acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main                 VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │  cargo nextest run
+      $?")                                  │    Finished `test` profile [unoptimized + d
+  ⎿  Exit code: 0                           │ebuginfo] target(s) in 0.02s
+                                            │    Starting 2 tests across 1 binary
+⏺ All tests pass. I added a new test test_ad│        PASS [   0.001s] acme::tests::test_a
+d_zero that verifies the add function correc│dd
+tly handles adding two zeros. The test suite│        PASS [   0.001s] acme::tests::test_a
+ now includes:                              │dd_zeros
+                                            │------------
+  - test_add - positive numbers (2 + 2 = 4) │     Summary [   0.002s] 2 tests run: 2 pass
+  - test_add_negative - mixed positive/negat│ed, 0 skipped
+ive (-1 + 1 = 0)                            │◎ Merging 1 commit to main @ 87ef389 (no reb
+  - test_add_zero - zeros (0 + 0 = 0)       │ase needed)
+                                            │  * 87ef389 feat: add user settings module
+────────────────────────────────────────────│   src/lib.rs | 5 +++++
+> Try "fix typecheck errors"                │   1 file changed, 5 insertions(+)
+────────────────────────────────────────────│✓ Merged to main (1 commit, 1 file, +5)
+   ~/w/acme.api  !–|  @+5  ●                │◎ Removing api worktree & branch in backgrou
+  http://localhost:13270  | Opus 4.5        │nd (same commit as main, _)
+                                            │○ Switched to worktree for main @ ~/w/acme
+                                            │
+                                            │acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main                 VERTICAL 
+⏺ Bash(cargo test 2>&1; echo "Exit code:    │  cargo nextest run
+      $?")                                  │    Finished `test` profile [unoptimized + d
+  ⎿  Exit code: 0                           │ebuginfo] target(s) in 0.02s
+                                            │    Starting 2 tests across 1 binary
+⏺ All tests pass. I added a new test test_ad│        PASS [   0.001s] acme::tests::test_a
+d_zero that verifies the add function correc│dd
+tly handles adding two zeros. The test suite│        PASS [   0.001s] acme::tests::test_a
+ now includes:                              │dd_zeros
+                                            │------------
+  - test_add - positive numbers (2 + 2 = 4) │     Summary [   0.002s] 2 tests run: 2 pass
+  - test_add_negative - mixed positive/negat│ed, 0 skipped
+ive (-1 + 1 = 0)                            │◎ Merging 1 commit to main @ 87ef389 (no reb
+  - test_add_zero - zeros (0 + 0 = 0)       │ase needed)
+                                            │  * 87ef389 feat: add user settings module
+────────────────────────────────────────────│   src/lib.rs | 5 +++++
+> Try "fix typecheck errors"                │   1 file changed, 5 insertions(+)
+────────────────────────────────────────────│✓ Merged to main (1 commit, 1 file, +5)
+   ~/w/acme.api  !–|  @+5  ●                │◎ Removing api worktree & branch in backgrou
+  http://localhost:13270  | Opus 4.5        │nd (same commit as main, _)
+                                            │○ Switched to worktree for main @ ~/w/acme
+                                            │
+                                            │acme ❯
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+       53 +          assert_eq!(amount.format(), "$19.99");
+       54 +      }
+       55 +
+       56 +      #[test]
+       57 +      fn test_display_trait() {
+       58 +          let amount = BillingAmount::new(2500, Currency::EUR);
+       59 +          assert_eq!(format!("{}", amount), "€25.00");
+       60 +      }
+       61    }
+
+⏺ Now let me run the tests to ensure everything works correctly:
+
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+✢ Musing… (esc to interrupt · 56s · ↑ 1.3k tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "how do I log an error?"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  !✗  @+119  ↓1  ●  http://localhost:16156  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+       53 +          assert_eq!(amount.format(), "$19.99");
+       54 +      }
+       55 +
+       56 +      #[test]
+       57 +      fn test_display_trait() {
+       58 +          let amount = BillingAmount::new(2500, Currency::EUR);
+       59 +          assert_eq!(format!("{}", amount), "€25.00");
+       60 +      }
+       61    }
+
+⏺ Now let me run the tests to ensure everything works correctly:
+
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+✢ Musing… (esc to interrupt · 57s · ↑ 1.3k tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "how do I log an error?"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  !✗  @+119  ↓1  ●  http://localhost:16156  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+       53 +          assert_eq!(amount.format(), "$19.99");
+       54 +      }
+       55 +
+       56 +      #[test]
+       57 +      fn test_display_trait() {
+       58 +          let amount = BillingAmount::new(2500, Currency::EUR);
+       59 +          assert_eq!(format!("{}", amount), "€25.00");
+       60 +      }
+       61    }
+
+⏺ Now let me run the tests to ensure everything works correctly:
+
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+· Musing… (esc to interrupt · 57s · ↑ 1.3k tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "how do I log an error?"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  !✗  @+119  ↓1  ●  http://localhost:16156  | Opus 4.5
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+       53 +          assert_eq!(amount.format(), "$19.99");
+       54 +      }
+       55 +
+       56 +      #[test]
+       57 +      fn test_display_trait() {
+       58 +          let amount = BillingAmount::new(2500, Currency::EUR);
+       59 +          assert_eq!(format!("{}", amount), "€25.00");
+       60 +      }
+       61    }
+
+⏺ Now let me run the tests to ensure everything works correctly:
+
+⏺ Bash(cargo test)
+  ⎿  (No content)
+
+· Musing… (esc to interrupt · 57s · ↓ 1.3k tokens)
+
+─────────────────────────────────────────────────────────────────────────────────────────
+> Try "how do I log an error?"
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  !✗  @+119  ↓1  ●  http://localhost:16156  | Opus 4.5
+
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-wxrfskbf/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-wxrfskbf/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-wxrfskbf/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+acme.feature ❯ echo '// User settings module' >> src/lib.rs
+
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 44f6674
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 398.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-wxrfskbf/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  e93848d8  3d
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ wt list --full
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
++ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  98906f6f  5d
+
+○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
+
+acme.auth ❯ wt remove
+◎ Removing auth worktree & branch in background (same commit as main, _)
+○ Switched to worktree for main @ ~/w/acme
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ wt list --full
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^⇡                                    ⇡1      http://localhost:12107  ●
+- feature      ↕|                ↑1  ↓1    +1          |     http://localhost:13054
++ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7           http://localhost:15276
++ billing   !  ✗     +119            ↓1                      http://localhost:16156  ●
++ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓2                |     http://localhost:18012  ●
+
+○ Showing 6 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^⇡                                    ⇡1      http://localhost:12107  ●
+- feature      ↕|                ↑1  ↓1    +1          |     http://localhost:13054
++ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7           http://localhost:15276
++ billing   !  ✗     +119            ↓1                      http://localhost:16156  ●
++ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓2                |     http://localhost:18012  ●
+
+○ Showing 6 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ done!
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (rusty-galaxy)  main  billing  feature  main 
+@ main         ^|                                      |     http://localhost:12107  ●
+- feature      ↑|                ↑1        +1          |     http://localhost:13054
++ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
++ api       !  –|      +5                              |     http://localhost:13270  ●
++ billing      _                                             http://localhost:16156  ●
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓1                |     http://localhost:18012  ●
+
+○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ wt list --full
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
+@ main         ^⇡                                    ⇡1      http://localhost:12107  ●
+- feature      ↕|                ↑1  ↓1    +1          |     http://localhost:13054
++ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7           http://localhost:15276
++ billing   !  ✗     +119            ↓1                      http://localhost:16156  ●
++ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1      http://localhost:15690  ●
++ beta     +   ↓|      +2            ↓2                |     http://localhost:18012  ●
+
+○ Showing 6 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+
+acme ❯ done!
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
