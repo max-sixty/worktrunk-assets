@@ -1,0 +1,634 @@
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+✓ Created branch api and worktree from main @ ~/w/acme.api
+↳ Customize worktree locations: wt config create
+◎ Running post-start project:deps:
+  npm install
+
+acme.api ❯
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+✓ Created branch api and worktree from main @ ~/w/acme.api
+↳ Customize worktree locations: wt config create
+◎ Running post-start project:deps:
+  npm install
+
+acme.api ❯ wt switch --execute claude --create dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+✓ Created branch api and worktree from main @ ~/w/acme.api
+↳ Customize worktree locations: wt config create
+◎ Running post-start project:deps:
+  npm install
+
+acme.api ❯ wt switch --execute claude --create dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+✓ Created branch api and worktree from main @ ~/w/acme.api
+↳ Customize worktree locations: wt config create
+◎ Running post-start project:deps:
+  npm install
+
+acme.api ❯ wt switch --execute claude --create dashboard
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+✓ Created branch api and worktree from main @ ~/w/acme.api
+↳ Customize worktree locations: wt config create
+◎ Running post-start project:deps:
+  npm install
+
+acme.api ❯ wt switch --execute claude --create dashboard
+✓ Created branch dashboard and worktree from main @ ~/w/acme.dashboard
+◎ Running post-start project:deps:
+  npm install
+◎ Executing (--execute):
+  claude
+
+╭─── Claude Code v2.1.2 ────────────────────────────────────────────────────────────────╮
+│                                  │ Tips for getting started                           │
+│         Welcome back wt!         │ Run /init to create a CLAUDE.md file with instruc… │
+│                                  │ ────────────────────────────────────────────────── │
+│              ▐▛███▜▌             │ Recent activity                                    │
+│             ▝▜█████▛▘            │ No recent activity                                 │
+│               ▘▘ ▝▝              │                                                    │
+────────────────────────────────────────────────────────────────────────────────
