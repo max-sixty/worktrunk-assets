@@ -512,10 +512,13 @@ acme ❯ wt switch alpha
 ○ Switched to worktree for alpha @ ~/w/acme.alpha
 
 acme.alpha ❯ wt switch --create api
+◎ Running post-create project:copy:
+  wt step copy-ignored
+✓ Copied 2 entries
 ✓ Created branch api and worktree from main @ ~/w/acme.api
 ↳ Customize worktree locations: wt config create
-◎ Running post-start project:deps:
-  npm install
+◎ Running post-start project:dev:
+  npm run dev -- --port 13270
 
 acme.api ❯
 
@@ -528,49 +531,21 @@ acme.api ❯
 
 
 
-
-
-
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt switch alpha
 ○ Switched to worktree for alpha @ ~/w/acme.alpha
 
 acme.alpha ❯ wt switch --create api
+◎ Running post-create project:copy:
+  wt step copy-ignored
+✓ Copied 2 entries
 ✓ Created branch api and worktree from main @ ~/w/acme.api
 ↳ Customize worktree locations: wt config create
-◎ Running post-start project:deps:
-  npm install
+◎ Running post-start project:dev:
+  npm run dev -- --port 13270
 
-acme.api ❯ wt switch --execute claude --create dashboard
-
-
-
-
-
-
-
-
-
-
-
-
-
-────────────────────────────────────────────────────────────────────────────────
-
-acme ❯ wt switch alpha
-○ Switched to worktree for alpha @ ~/w/acme.alpha
-
-acme.alpha ❯ wt switch --create api
-✓ Created branch api and worktree from main @ ~/w/acme.api
-↳ Customize worktree locations: wt config create
-◎ Running post-start project:deps:
-  npm install
-
-acme.api ❯ wt switch --execute claude --create dashboard
-
-
-
+acme.api ❯ wt switch --execute claude --create dashboard -- 'Add settings page'
 
 
 
@@ -587,15 +562,15 @@ acme ❯ wt switch alpha
 ○ Switched to worktree for alpha @ ~/w/acme.alpha
 
 acme.alpha ❯ wt switch --create api
+◎ Running post-create project:copy:
+  wt step copy-ignored
+✓ Copied 2 entries
 ✓ Created branch api and worktree from main @ ~/w/acme.api
 ↳ Customize worktree locations: wt config create
-◎ Running post-start project:deps:
-  npm install
+◎ Running post-start project:dev:
+  npm run dev -- --port 13270
 
-acme.api ❯ wt switch --execute claude --create dashboard
-
-
-
+acme.api ❯ wt switch --execute claude --create dashboard -- 'Add settings page'
 
 
 
@@ -612,23 +587,48 @@ acme ❯ wt switch alpha
 ○ Switched to worktree for alpha @ ~/w/acme.alpha
 
 acme.alpha ❯ wt switch --create api
+◎ Running post-create project:copy:
+  wt step copy-ignored
+✓ Copied 2 entries
 ✓ Created branch api and worktree from main @ ~/w/acme.api
 ↳ Customize worktree locations: wt config create
-◎ Running post-start project:deps:
-  npm install
+◎ Running post-start project:dev:
+  npm run dev -- --port 13270
 
-acme.api ❯ wt switch --execute claude --create dashboard
+acme.api ❯ wt switch --execute claude --create dashboard -- 'Add settings page'
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+
+acme ❯ wt switch alpha
+○ Switched to worktree for alpha @ ~/w/acme.alpha
+
+acme.alpha ❯ wt switch --create api
+◎ Running post-create project:copy:
+  wt step copy-ignored
+✓ Copied 2 entries
+✓ Created branch api and worktree from main @ ~/w/acme.api
+↳ Customize worktree locations: wt config create
+◎ Running post-start project:dev:
+  npm run dev -- --port 13270
+
+acme.api ❯ wt switch --execute claude --create dashboard -- 'Add settings page'
+◎ Running post-create project:copy:
+  wt step copy-ignored
+✓ Copied 2 entries
 ✓ Created branch dashboard and worktree from main @ ~/w/acme.dashboard
-◎ Running post-start project:deps:
-  npm install
+◎ Running post-start project:dev:
+  npm run dev -- --port 12761
 ◎ Executing (--execute):
-  claude
+  claude 'Add settings page'
 
 ╭─── Claude Code v2.1.2 ────────────────────────────────────────────────────────────────╮
-│                                  │ Tips for getting started                           │
-│         Welcome back wt!         │ Run /init to create a CLAUDE.md file with instruc… │
-│                                  │ ────────────────────────────────────────────────── │
-│              ▐▛███▜▌             │ Recent activity                                    │
-│             ▝▜█████▛▘            │ No recent activity                                 │
-│               ▘▘ ▝▝              │                                                    │
 ────────────────────────────────────────────────────────────────────────────────
