@@ -385,7 +385,82 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  Tab #1 
 
 acme ❯
 
@@ -410,7 +485,7 @@ acme ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
+ Zellij (outstanding-diplodocus)  Tab #1 
 
 acme ❯
 
@@ -435,34 +510,9 @@ acme ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
+ Zellij (outstanding-diplodocus)  Tab #1 
 
-acme ❯ wt list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
-
-acme ❯ wt list
+acme ❯ wt switch
 
 
 
@@ -485,20 +535,9 @@ acme ❯ wt list
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
+ Zellij (outstanding-diplodocus)  Tab #1 
 
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯
+acme ❯ wt switch
 
 
 
@@ -508,22 +547,8 @@ acme ❯
 
 
 
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
 
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
 
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch a
 
 
 
@@ -535,20 +560,95 @@ acme ❯ wt switch a
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
+ Zellij (outstanding-diplodocus)  Tab #1 
 
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+acme ❯ wt switch
+>                                            │1: HEAD± | 2: log | 3: main…± | 4: remo1/4
+    Branch  Status        HEAD±    main↕  Age│Enter: switch | alt-c: create | Esc: cancel
+> @ main        ^|                        1d │
+  + hooks   +!  ↑       +2        ↑1      2. │○ main has no uncommitted changes
+  + api         _|                        1d │
+  + auth        _|                        1d │
+  + alpha    !? ↑⇡    +105  -14   ↑5      3. │
+  + beta    +   ↓|      +2            ↓1  5. │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
 
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  Tab #1 
 
-acme ❯ wt switch a
+acme ❯ wt switch
+> api                                        │1: HEAD± | 2: log | 3: main…± | 4: remo1/4
+    Branch  Status        HEAD±    main↕  Age│Enter: switch | alt-c: create | Esc: cancel
+> + api         _|                        1d │
+                                             │○ api has no uncommitted changes
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  Tab #1 
+
+acme ❯ wt switch
+> api                                        │1: HEAD± | 2: log | 3: main…± | 4: remo1/4
+    Branch  Status        HEAD±    main↕  Age│Enter: switch | alt-c: create | Esc: cancel
+> + api         _|                        1d │
+                                             │○ api has no uncommitted changes
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+                                             │
+
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  Tab #1 
+
+acme ❯ wt switch
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -560,170 +660,9 @@ acme ❯ wt switch a
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
+ Zellij (outstanding-diplodocus)  api 
 
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch a
-api  (+ 1d)  auth  (+ 1d)  alpha  (+ 3d)
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
-
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
-api  (+ 1d)  auth  (+ 1d)  alpha  (+ 3d)
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
-
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
-api  (+ 1d)  auth  (+ 1d)  alpha  (+ 3d)
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
-
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
-
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  Tab #1 
-
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api 
-
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
+acme ❯ wt switch
 ○ Switched to worktree for api @ ~/w/acme.api
 
 acme.api ❯
@@ -733,22 +672,22 @@ acme.api ❯
 
 
 
+
+
+
+
+
+
+
+
+
+
+
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api 
+ Zellij (outstanding-diplodocus)  api 
 
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
+acme ❯ wt switch
 ○ Switched to worktree for api @ ~/w/acme.api
 
 acme.api ❯ claude 'Add a test for the add function'
@@ -758,22 +697,22 @@ acme.api ❯ claude 'Add a test for the add function'
 
 
 
+
+
+
+
+
+
+
+
+
+
+
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api 
+ Zellij (outstanding-diplodocus)  api 
 
-acme ❯ wt list
-  Branch  Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ main        ^|                           |     http://localhost:12107  bcf70296  1d
-+ hooks   +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api         _|                           |     http://localhost:13270  bcf70296  1d
-+ auth        _|                           |     http://localhost:15851  bcf70296  1d
-+ alpha    !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta    +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 6 worktrees, 3 with changes, 2 ahead, 2 columns hidden
-
-acme ❯ wt switch api
+acme ❯ wt switch
 ○ Switched to worktree for api @ ~/w/acme.api
 
 acme.api ❯ claude 'Add a test for the add function'
@@ -783,59 +722,120 @@ acme.api ❯ claude 'Add a test for the add function'
 
 
 
+
+
+
+
+
+
+
+
+
+
+
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api 
-│              ▐▛███▜▌             │ Recent activity                                    │
-│             ▝▜█████▛▘            │ No recent activity                                 │
-│               ▘▘ ▝▝              │                                                    │
-│                                  │                                                    │
-│   Opus 4.5 · API Usage Billing   │                                                    │
-│           ~/w/acme.api           │                                                    │
-╰───────────────────────────────────────────────────────────────────────────────────────╯
+ Zellij (outstanding-diplodocus)  api 
+○ Switched to worktree for api @ ~/w/acme.api
 
-  Welcome to Opus 4.5
+acme.api ❯ claude 'Add a test for the add function'
+ ▐▛███▜▌   Claude Code v2.1.77
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.api
 
 ❯ Add a test for the add function
 
-⏺ Search(pattern: "fn add")
-  ⎿  Found 1 file (ctrl+o to expand)
+⏺ Let me first look at the existing code.
 
-✽ Vibing… (ctrl+c to interrupt)
+⏺ Searching for 1 pattern… (ctrl+o to expand)
+  ⎿  "**/*.rs"
+  ⎿  1 skill available
+
+✶ Harmonizing…
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 ❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.api  _|  http://localhost:13270  | Opus 4.5  🌕 10%
+   ~/w/acme.api  _|  http://localhost:13270  | Op… Fast mode is now available · /fast …
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api 
-│              ▐▛███▜▌             │ Recent activity                                    │
-│             ▝▜█████▛▘            │ No recent activity                                 │
-│               ▘▘ ▝▝              │                                                    │
-│                                  │                                                    │
-│   Opus 4.5 · API Usage Billing   │                                                    │
-│           ~/w/acme.api           │                                                    │
-╰───────────────────────────────────────────────────────────────────────────────────────╯
+ Zellij (outstanding-diplodocus)  api 
+○ Switched to worktree for api @ ~/w/acme.api
 
-  Welcome to Opus 4.5
+acme.api ❯ claude 'Add a test for the add function'
+ ▐▛███▜▌   Claude Code v2.1.77
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.api
 
 ❯ Add a test for the add function
 
-⏺ Search(pattern: "fn add")
-  ⎿  Found 1 file (ctrl+o to expand)
+⏺ Let me first look at the existing code.
 
-✽ Vibing… (ctrl+c to interrupt)
+⏺ Searching for 1 pattern… (ctrl+o to expand)
+  ⎿  "**/*.rs"
+  ⎿  1 skill available
+
+✶ Harmonizing…
 
 ─────────────────────────────────────────────────────────────────────────────────────────
 ❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.api  _|  http://localhost:13270  | Opus 4.5  🌕 10%
+   ~/w/acme.api  _|  http://localhost:13270  | Op… Fast mode is now available · /fast …
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api 
+○ Switched to worktree for api @ ~/w/acme.api
+
+acme.api ❯ claude 'Add a test for the add function'
+ ▐▛███▜▌   Claude Code v2.1.77
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.api
+
+❯ Add a test for the add function
+
+⏺ Let me first look at the existing code.
+
+⏺ Searching for 1 pattern… (ctrl+o to expand)
+  ⎿  "**/*.rs"
+  ⎿  1 skill available
+
+✳ Harmonizing…
+
+─────────────────────────────────────────────────────────────────────────────────────────
+❯
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  _|  http://localhost:13270  | Op… Fast mode is now available · /fast …
+
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  api  Tab #2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ Ctrl c  TAB   n  New  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯
 
@@ -860,7 +860,7 @@ acme.api ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯ wsl
 
@@ -885,7 +885,7 @@ acme.api ❯ wsl
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯ wsl
 
@@ -910,7 +910,7 @@ acme.api ❯ wsl
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯ wsl
 
@@ -935,7 +935,7 @@ acme.api ❯ wsl
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯ wt switch --execute=claude --create billing -- 'Format billing amounts with cu
 rrency symbols'
@@ -960,7 +960,7 @@ rrency symbols'
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯ wt switch --execute=claude --create billing -- 'Format billing amounts with cu
 rrency symbols'
@@ -985,7 +985,7 @@ rrency symbols'
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  Tab #2 
+ Zellij (outstanding-diplodocus)  api  Tab #2 
 
 acme.api ❯ wt switch --execute=claude --create billing -- 'Format billing amounts with cu
 rrency symbols'
@@ -1010,57 +1010,107 @@ rrency symbols'
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing 
-│   Opus 4.5 · API Usage Billing    │                                                   │
-│         ~/w/acme.billing          │                                                   │
-╰───────────────────────────────────────────────────────────────────────────────────────╯
+ Zellij (outstanding-diplodocus)  api  billing 
+ ▐▛███▜▌   Claude Code v2.1.86
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.billing
 
-  Welcome to Opus 4.5
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
 
 ❯ Format billing amounts with currency symbols
 
-⏺ I'll explore the codebase to understand the current billing amount formatting and then
-  implement currency symbol formatting.
-
-  Explore(Explore billing amount handling)
-  ⎿  ❯ Explore this Rust codebase to understand how billing amounts are currently
-
-
-✳ Forming… (ctrl+c to interrupt)
+✢ Cascading…
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯ Try "how do I log an error?"
+❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.5  🌕 10%
+   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.6           ◐ medium · /effort
+
+
+
+
+
+
+
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing 
-│   Opus 4.5 · API Usage Billing    │                                                   │
-│         ~/w/acme.billing          │                                                   │
-╰───────────────────────────────────────────────────────────────────────────────────────╯
+ Zellij (outstanding-diplodocus)  api  billing 
+ ▐▛███▜▌   Claude Code v2.1.86
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.billing
 
-  Welcome to Opus 4.5
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
 
 ❯ Format billing amounts with currency symbols
 
-⏺ I'll explore the codebase to understand the current billing amount formatting and then
-  implement currency symbol formatting.
-
-  Explore(Explore billing amount handling)
-  ⎿  ❯ Explore this Rust codebase to understand how billing amounts are currently
-
-
-✳ Forming… (ctrl+c to interrupt)
+✢ Cascading…
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯ Try "how do I log an error?"
+❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.5  🌕 10%
+   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.6           ◐ medium · /effort
+
+
+
+
+
+
+
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  Tab #3 
+ Zellij (outstanding-diplodocus)  api  billing 
+ ▐▛███▜▌   Claude Code v2.1.86
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.billing
+
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
+
+❯ Format billing amounts with currency symbols
+
+· Cascading…
+
+─────────────────────────────────────────────────────────────────────────────────────────
+❯
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.6           ◐ medium · /effort
+
+
+
+
+
+
+
+
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  api  billing 
+ ▐▛███▜▌   Claude Code v2.1.86
+▝▜█████▛▘  Opus 4.6 · API Usage Billing
+  ▘▘ ▝▝    ~/w/acme.billing
+
+  ↑ Opus now defaults to 1M context · 5x more room, same pricing
+
+❯ Format billing amounts with currency symbols
+
+· Cascading…
+
+─────────────────────────────────────────────────────────────────────────────────────────
+❯
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.6           ◐ medium · /effort
+
+
+
+
+
+
+
+
+ Ctrl c  TAB   n  New  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  api  billing  Tab #3 
 
 acme.billing ❯
 
@@ -1085,7 +1135,7 @@ acme.billing ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  Tab #3 
+ Zellij (outstanding-diplodocus)  api  billing  Tab #3 
 
 acme.billing ❯ wt switch --create feature
 
@@ -1110,7 +1160,7 @@ acme.billing ❯ wt switch --create feature
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  Tab #3 
+ Zellij (outstanding-diplodocus)  api  billing  Tab #3 
 
 acme.billing ❯ wt switch --create feature
 
@@ -1135,11 +1185,11 @@ acme.billing ❯ wt switch --create feature
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯
 
@@ -1160,11 +1210,11 @@ acme.feature ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1185,14 +1235,14 @@ acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
-
+⏎
 
 
 
@@ -1210,11 +1260,11 @@ acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1235,11 +1285,11 @@ acme.feature ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1260,11 +1310,11 @@ acme.feature ❯ wt step commit
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1285,11 +1335,11 @@ acme.feature ❯ wt step commit
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1298,7 +1348,7 @@ acme.feature ❯ wt step commit
   feat: add user settings module
 
   Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
+✓ Committed changes @ 8dce3a2
 
 acme.feature ❯
 
@@ -1310,11 +1360,11 @@ acme.feature ❯
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1323,7 +1373,7 @@ acme.feature ❯ wt step commit
   feat: add user settings module
 
   Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
+✓ Committed changes @ 8dce3a2
 
 acme.feature ❯ git push -u origin feature
 
@@ -1335,11 +1385,11 @@ acme.feature ❯ git push -u origin feature
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
 acme.billing ❯ wt switch --create feature
 ✓ Created branch feature from main and worktree @ ~/w/acme.feature
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
@@ -1348,7 +1398,7 @@ acme.feature ❯ wt step commit
   feat: add user settings module
 
   Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
+✓ Committed changes @ 8dce3a2
 
 acme.feature ❯ git push -u origin feature
 
@@ -1360,7 +1410,7 @@ acme.feature ❯ git push -u origin feature
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
 acme.feature ❯ wt step commit
@@ -1368,16 +1418,16 @@ acme.feature ❯ wt step commit
   feat: add user settings module
 
   Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
+✓ Committed changes @ 8dce3a2
 
 acme.feature ❯ git push -u origin feature
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 16 threads
 Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2qw/.demo-wt-zellij-omni
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-a12062_l/.demo-wt-zellij-omni
 bus/remote.git
  * [new branch]      feature -> feature
 branch 'feature' set up to track 'origin/feature'.
@@ -1385,7 +1435,7 @@ branch 'feature' set up to track 'origin/feature'.
 acme.feature ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 acme.feature ❯ echo '// User settings module' >> src/lib.rs
 
 acme.feature ❯ wt step commit
@@ -1393,1094 +1443,844 @@ acme.feature ❯ wt step commit
   feat: add user settings module
 
   Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
+✓ Committed changes @ 8dce3a2
 
 acme.feature ❯ git push -u origin feature
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
 Delta compression using up to 16 threads
 Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
 Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2qw/.demo-wt-zellij-omni
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-a12062_l/.demo-wt-zellij-omni
 bus/remote.git
  * [new branch]      feature -> feature
 branch 'feature' set up to track 'origin/feature'.
 
-acme.feature ❯
+acme.feature ❯ wt remove
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  Tab #4 
+ Zellij (outstanding-diplodocus)  api  billing  feature 
 
-acme.feature ❯
+acme.feature ❯ wt step commit
+◎ Generating commit message and committing changes... (1 file, +1)
+  feat: add user settings module
 
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 8dce3a2
 
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-a12062_l/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  Tab #4 
-
-acme.feature ❯ wt switch auth
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+acme.feature ❯ wt remove
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  Tab #4 
-
-acme.feature ❯ wt switch auth
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  auth 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  auth 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯ wt list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  auth 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯ wt list
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  auth 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ auth         _|                           |     http://localhost:15851  bcf70296  1d
-^ main         ^|                           |     http://localhost:12107  bcf70296  1d
-+ feature      ↑|                ↑1         |     http://localhost:13054  74989cb1  now
-+ hooks    +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api       !  –|      +5                   |     http://localhost:13270  bcf70296  1d
-+ billing      _                                  http://localhost:16156  bcf70296  1d
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  auth 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ auth         _|                           |     http://localhost:15851  bcf70296  1d
-^ main         ^|                           |     http://localhost:12107  bcf70296  1d
-+ feature      ↑|                ↑1         |     http://localhost:13054  74989cb1  now
-+ hooks    +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api       !  –|      +5                   |     http://localhost:13270  bcf70296  1d
-+ billing      _                                  http://localhost:16156  bcf70296  1d
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  auth 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ auth         _|                           |     http://localhost:15851  bcf70296  1d
-^ main         ^|                           |     http://localhost:12107  bcf70296  1d
-+ feature      ↑|                ↑1         |     http://localhost:13054  74989cb1  now
-+ hooks    +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api       !  –|      +5                   |     http://localhost:13270  bcf70296  1d
-+ billing      _                                  http://localhost:16156  bcf70296  1d
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-
-
-
-
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
-
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
-
-acme.auth ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ auth         _|                           |     http://localhost:15851  bcf70296  1d
-^ main         ^|                           |     http://localhost:12107  bcf70296  1d
-+ feature      ↑|                ↑1         |     http://localhost:13054  74989cb1  now
-+ hooks    +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api       !  –|      +5                   |     http://localhost:13270  bcf70296  1d
-+ billing      _                                  http://localhost:16156  bcf70296  1d
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+ Zellij (outstanding-diplodocus)  api  billing  main 
+
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 8dce3a2
+
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-a12062_l/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
+
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
+ Zellij (outstanding-diplodocus)  api  billing  main 
 
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 8dce3a2
 
-acme.auth ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ auth         _|                           |     http://localhost:15851  bcf70296  1d
-^ main         ^|                           |     http://localhost:12107  bcf70296  1d
-+ feature      ↑|                ↑1         |     http://localhost:13054  74989cb1  now
-+ hooks    +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api       !  –|      +5                   |     http://localhost:13270  bcf70296  1d
-+ billing      _                                  http://localhost:16156  bcf70296  1d
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-a12062_l/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
-acme.feature ❯ wt switch auth
-○ Switched to worktree for auth @ ~/w/acme.auth
+ Zellij (outstanding-diplodocus)  api  billing  main 
+  Add placeholder module for user profile settings.
+✓ Committed changes @ 8dce3a2
 
-acme.auth ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  URL                     Commit    Age
-@ auth         _|                           |     http://localhost:15851  bcf70296  1d
-^ main         ^|                           |     http://localhost:12107  bcf70296  1d
-+ feature      ↑|                ↑1         |     http://localhost:13054  74989cb1  now
-+ hooks    +!  ↑       +2        ↑1               http://localhost:15276  0cbc456e  2h
-+ api       !  –|      +5                   |     http://localhost:13270  bcf70296  1d
-+ billing      _                                  http://localhost:16156  bcf70296  1d
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+acme.feature ❯ git push -u origin feature
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 396 bytes | 396.00 KiB/s, done.
+Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-a12062_l/.demo-wt-zellij-omni
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+ Zellij (outstanding-diplodocus)  api  billing  main 
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+ Zellij (outstanding-diplodocus)  api  billing  main 
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+ Zellij (outstanding-diplodocus)  api  billing  main 
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯
-  ESC  Select pane 
+  Ctrl c  Select pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
- zeros. You can run the tests with:
+ Zellij (outstanding-diplodocus)  api  billing  main 
+      15      fn test_add_negative() {
+      16          assert_eq!(add(-1, 1), 0);
+      17      }
+      18 +
+      19 +    #[test]
+      20 +    fn test_add_zeros() {
+      21 +        assert_eq!(add(0, 0), 0);
+      22 +    }
+      23  }
 
-  cargo test
+⏺ Now let me run the tests to verify.
+
+⏺ Bash(cargo test)
+  ⎿  (No output)
+
+⏺ All tests pass. I added test_add_zeros which verifies that add(0, 0) returns 0.
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯
+❯ commit this
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.5  🌕 10%
-  1 file +5 -0
-
-
-
-
-
-
-
-
-
-
-
-
+   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.6  🌕 7%
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
- zeros. You can run the tests with:
+ Zellij (outstanding-diplodocus)  api  billing  main 
+      15      fn test_add_negative() {
+      16          assert_eq!(add(-1, 1), 0);
+      17      }
+      18 +
+      19 +    #[test]
+      20 +    fn test_add_zeros() {
+      21 +        assert_eq!(add(0, 0), 0);
+      22 +    }
+      23  }
 
-  cargo test
+⏺ Now let me run the tests to verify.
+
+⏺ Bash(cargo test)
+  ⎿  (No output)
+
+⏺ All tests pass. I added test_add_zeros which verifies that add(0, 0) returns 0.
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯
+❯ commit this
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.5  🌕 10%
-  1 file +5 -0
-
-
-
-
-
-
-
-
-
-
-
-
+   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.6  🌕 7%
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main 
- zeros. You can run the tests with:
+ Zellij (outstanding-diplodocus)  api  billing  main 
+      15      fn test_add_negative() {
+      16          assert_eq!(add(-1, 1), 0);
+      17      }
+      18 +
+      19 +    #[test]
+      20 +    fn test_add_zeros() {
+      21 +        assert_eq!(add(0, 0), 0);
+      22 +    }
+      23  }
 
-  cargo test
+⏺ Now let me run the tests to verify.
+
+⏺ Bash(cargo test)
+  ⎿  (No output)
+
+⏺ All tests pass. I added test_add_zeros which verifies that add(0, 0) returns 0.
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯
+❯ commit this
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.5  🌕 10%
-  1 file +5 -0
-
-
-
-
-
-
-
-
-
-
-
-
+   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.6  🌕 7%
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
-      20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯
-      21 +        assert_eq!(add(0, 0), 0); │
-                                            │
+ Zellij (outstanding-diplodocus)  api  billing  main 
+      15      fn test_add_negative() {
+      16          assert_eq!(add(-1, 1), 0);
+      17      }
+      18 +
+      19 +    #[test]
+      20 +    fn test_add_zeros() {
+      21 +        assert_eq!(add(0, 0), 0);
+      22 +    }
+      23  }
+
+⏺ Now let me run the tests to verify.
+
+⏺ Bash(cargo test)
+  ⎿  (No output)
+
+⏺ All tests pass. I added test_add_zeros which verifies that add(0, 0) returns 0.
+
+─────────────────────────────────────────────────────────────────────────────────────────
+❯ commit this
+─────────────────────────────────────────────────────────────────────────────────────────
+   ~/w/acme.api  !–|  @+5  http://localhost:13270  | Opus 4.6  🌕 7%
+
+  Ctrl c  Select pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
       22 +    }                             │
                                             │
       23  }                                 │
                                             │
-⏺ Added a test test_add_zeros that verifies │
-the add function correctly handles adding tw│
-o zeros. You can run the tests with:        │
+⏺ Now let me run the tests to verify.       │
                                             │
-  cargo test                                │
+⏺ Bash(cargo test)                          │
+  ⎿  (No output)                            │
+                                            │
+⏺ All tests pass. I added test_add_zeros whi│
+ch verifies that add(0, 0) returns 0.       │
                                             │
 ────────────────────────────────────────────│
-❯                                           │
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+─                                           │
+❯ commit this                               │
+────────────────────────────────────────────│
+────────────────────────────────────────────│
+─ c                                         │
+   ~/w/acme.api  !–|  @+5  http://localhost:│
+13270  | Opus 4.6  🌕 7%                    │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯
+      19 +    #[test]                       │
       20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯ git diff
-      21 +        assert_eq!(add(0, 0), 0); │
-                                            │
+      21 +        assert_eq!(add(0, 0       │
+         +), 0);                            │
       22 +    }                             │
-                                            │
       23  }                                 │
                                             │
-⏺ Added a test test_add_zeros that verifies │
-the add function correctly handles adding tw│
-o zeros. You can run the tests with:        │
+⏺ Now let me run the tests to verify.       │
                                             │
-  cargo test                                │
+⏺ Bash(cargo test)                          │
+  ⎿  (No output)                            │
+                                            │
+⏺ All tests pass. I added test_add_zeros    │
+  which verifies that add(0, 0) returns 0.  │
                                             │
 ────────────────────────────────────────────│
-❯                                           │
+❯ commit this                               │
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯ git diff
+      19 +    #[test]                       │
       20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯ git diff
-      21 +        assert_eq!(add(0, 0), 0); │
-                                            │
+      21 +        assert_eq!(add(0, 0       │
+         +), 0);                            │
       22 +    }                             │
-                                            │
       23  }                                 │
                                             │
-⏺ Added a test test_add_zeros that verifies │
-the add function correctly handles adding tw│
-o zeros. You can run the tests with:        │
+⏺ Now let me run the tests to verify.       │
                                             │
-  cargo test                                │
+⏺ Bash(cargo test)                          │
+  ⎿  (No output)                            │
+                                            │
+⏺ All tests pass. I added test_add_zeros    │
+  which verifies that add(0, 0) returns 0.  │
                                             │
 ────────────────────────────────────────────│
-❯                                           │
+❯ commit this                               │
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
-      20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯ git diff
-      21 +        assert_eq!(add(0, 0), 0); │diff --git a/src/lib.rs b/src/lib.rs
-                                            │index 7237325..5b3a20f 100644
-      22 +    }                             │--- a/src/lib.rs
-                                            │+++ b/src/lib.rs
-      23  }                                 │@@ -15,4 +15,9 @@ mod tests {
-                                            │     fn test_add_negative() {
-⏺ Added a test test_add_zeros that verifies │         assert_eq!(add(-1, 1), 0);
-the add function correctly handles adding tw│     }
-o zeros. You can run the tests with:        │+
-                                            │+    #[test]
-  cargo test                                │+    fn test_add_zeros() {
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯ git diff
+      19 +    #[test]                       │diff --git a/src/lib.rs b/src/lib.rs
+      20 +    fn test_add_zeros() {         │index 7237325..5b3a20f 100644
+      21 +        assert_eq!(add(0, 0       │--- a/src/lib.rs
+         +), 0);                            │+++ b/src/lib.rs
+      22 +    }                             │@@ -15,4 +15,9 @@ mod tests {
+      23  }                                 │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+⏺ Now let me run the tests to verify.       │     }
+                                            │+
+⏺ Bash(cargo test)                          │+    #[test]
+  ⎿  (No output)                            │+    fn test_add_zeros() {
                                             │+        assert_eq!(add(0, 0), 0);
-────────────────────────────────────────────│+    }
-❯                                           │ }
+⏺ All tests pass. I added test_add_zeros    │+    }
+  which verifies that add(0, 0) returns 0.  │ }
+                                            │⏎
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │acme.api ❯
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+❯ commit this                               │
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
-      20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯ git diff
-      21 +        assert_eq!(add(0, 0), 0); │diff --git a/src/lib.rs b/src/lib.rs
-                                            │index 7237325..5b3a20f 100644
-      22 +    }                             │--- a/src/lib.rs
-                                            │+++ b/src/lib.rs
-      23  }                                 │@@ -15,4 +15,9 @@ mod tests {
-                                            │     fn test_add_negative() {
-⏺ Added a test test_add_zeros that verifies │         assert_eq!(add(-1, 1), 0);
-the add function correctly handles adding tw│     }
-o zeros. You can run the tests with:        │+
-                                            │+    #[test]
-  cargo test                                │+    fn test_add_zeros() {
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯ git diff
+      19 +    #[test]                       │diff --git a/src/lib.rs b/src/lib.rs
+      20 +    fn test_add_zeros() {         │index 7237325..5b3a20f 100644
+      21 +        assert_eq!(add(0, 0       │--- a/src/lib.rs
+         +), 0);                            │+++ b/src/lib.rs
+      22 +    }                             │@@ -15,4 +15,9 @@ mod tests {
+      23  }                                 │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+⏺ Now let me run the tests to verify.       │     }
+                                            │+
+⏺ Bash(cargo test)                          │+    #[test]
+  ⎿  (No output)                            │+    fn test_add_zeros() {
                                             │+        assert_eq!(add(0, 0), 0);
-────────────────────────────────────────────│+    }
-❯                                           │ }
+⏺ All tests pass. I added test_add_zeros    │+    }
+  which verifies that add(0, 0) returns 0.  │ }
+                                            │
+────────────────────────────────────────────│acme.api ❯
+❯ commit this                               │
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │acme.api ❯
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
-      20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯ git diff
-      21 +        assert_eq!(add(0, 0), 0); │diff --git a/src/lib.rs b/src/lib.rs
-                                            │index 7237325..5b3a20f 100644
-      22 +    }                             │--- a/src/lib.rs
-                                            │+++ b/src/lib.rs
-      23  }                                 │@@ -15,4 +15,9 @@ mod tests {
-                                            │     fn test_add_negative() {
-⏺ Added a test test_add_zeros that verifies │         assert_eq!(add(-1, 1), 0);
-the add function correctly handles adding tw│     }
-o zeros. You can run the tests with:        │+
-                                            │+    #[test]
-  cargo test                                │+    fn test_add_zeros() {
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯ git diff
+      19 +    #[test]                       │diff --git a/src/lib.rs b/src/lib.rs
+      20 +    fn test_add_zeros() {         │index 7237325..5b3a20f 100644
+      21 +        assert_eq!(add(0, 0       │--- a/src/lib.rs
+         +), 0);                            │+++ b/src/lib.rs
+      22 +    }                             │@@ -15,4 +15,9 @@ mod tests {
+      23  }                                 │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+⏺ Now let me run the tests to verify.       │     }
+                                            │+
+⏺ Bash(cargo test)                          │+    #[test]
+  ⎿  (No output)                            │+    fn test_add_zeros() {
                                             │+        assert_eq!(add(0, 0), 0);
-────────────────────────────────────────────│+    }
-❯                                           │ }
+⏺ All tests pass. I added test_add_zeros    │+    }
+  which verifies that add(0, 0) returns 0.  │ }
+                                            │
+────────────────────────────────────────────│acme.api ❯
+❯ commit this                               │
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │acme.api ❯ wt merg
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  api  billing  feature  main                VERTICAL 
-      20 +    fn test_add_zeros() {         │
-                                            │acme.api ❯ git diff
-      21 +        assert_eq!(add(0, 0), 0); │diff --git a/src/lib.rs b/src/lib.rs
-                                            │index 7237325..5b3a20f 100644
-      22 +    }                             │--- a/src/lib.rs
-                                            │+++ b/src/lib.rs
-      23  }                                 │@@ -15,4 +15,9 @@ mod tests {
-                                            │     fn test_add_negative() {
-⏺ Added a test test_add_zeros that verifies │         assert_eq!(add(-1, 1), 0);
-the add function correctly handles adding tw│     }
-o zeros. You can run the tests with:        │+
-                                            │+    #[test]
-  cargo test                                │+    fn test_add_zeros() {
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯ git diff
+      19 +    #[test]                       │diff --git a/src/lib.rs b/src/lib.rs
+      20 +    fn test_add_zeros() {         │index 7237325..5b3a20f 100644
+      21 +        assert_eq!(add(0, 0       │--- a/src/lib.rs
+         +), 0);                            │+++ b/src/lib.rs
+      22 +    }                             │@@ -15,4 +15,9 @@ mod tests {
+      23  }                                 │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+⏺ Now let me run the tests to verify.       │     }
+                                            │+
+⏺ Bash(cargo test)                          │+    #[test]
+  ⎿  (No output)                            │+    fn test_add_zeros() {
                                             │+        assert_eq!(add(0, 0), 0);
-────────────────────────────────────────────│+    }
-❯                                           │ }
+⏺ All tests pass. I added test_add_zeros    │+    }
+  which verifies that add(0, 0) returns 0.  │ }
+                                            │
+────────────────────────────────────────────│acme.api ❯ wt merge
+❯ commit this                               │
 ────────────────────────────────────────────│
-   ~/w/acme.api  !–|  @+5                   │acme.api ❯ wt merge
-  http://localhost:13270  | Opus 4.5  🌕    │
-  10%                                       │
-  1 file +5 -0                              │
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main               VERTICAL 
-      20 +    fn test_add_zeros() {         │  cargo nextest run
-                                            │    Finished `test` profile [unoptimized + d
-      21 +        assert_eq!(add(0, 0), 0); │ebuginfo] target(s) in 0.02s
-                                            │    Starting 2 tests across 1 binary
+ Zellij (outstanding-diplodocus)  api  billing  main                   VERTICAL 
+      17      }                             │
+      18 +                                  │acme.api ❯ git diff
+      19 +    #[test]                       │diff --git a/src/lib.rs b/src/lib.rs
+      20 +    fn test_add_zeros() {         │index 7237325..5b3a20f 100644
+      21 +        assert_eq!(add(0, 0       │--- a/src/lib.rs
+         +), 0);                            │+++ b/src/lib.rs
+      22 +    }                             │@@ -15,4 +15,9 @@ mod tests {
+      23  }                                 │     fn test_add_negative() {
+                                            │         assert_eq!(add(-1, 1), 0);
+⏺ Now let me run the tests to verify.       │     }
+                                            │+
+⏺ Bash(cargo test)                          │+    #[test]
+  ⎿  (No output)                            │+    fn test_add_zeros() {
+                                            │+        assert_eq!(add(0, 0), 0);
+⏺ All tests pass. I added test_add_zeros    │+    }
+  which verifies that add(0, 0) returns 0.  │ }
+                                            │
+────────────────────────────────────────────│acme.api ❯ wt merge
+❯ commit this                               │
+────────────────────────────────────────────│
+   ~/w/acme.api  !–|  @+5  http://localho…  │
+                                            │
+                                                                 Ctrl +  <n> New Pane 
+────────────────────────────────────────────────────────────────────────────────
+ Zellij (outstanding-diplodocus)  main  billing  main                  VERTICAL 
+      17      }                             │  cargo nextest run
+      18 +                                  │    Finished `test` profile [unoptimized + d
+      19 +    #[test]                       │ebuginfo] target(s) in 0.02s
+      20 +    fn test_add_zeros() {         │    Starting 2 tests across 1 binary
+      21 +        assert_eq!(add(0, 0       │        PASS [   0.001s] acme::tests::test_a
+         +), 0);                            │dd
       22 +    }                             │        PASS [   0.001s] acme::tests::test_a
-                                            │dd
-      23  }                                 │        PASS [   0.001s] acme::tests::test_a
-                                            │dd_zeros
-⏺ Added a test test_add_zeros that verifies │------------
-the add function correctly handles adding tw│     Summary [   0.002s] 2 tests run: 2 pass
-o zeros. You can run the tests with:        │ed, 0 skipped
-                                            │◎ Merging 1 commit to main @ 11c3693 (no reb
-  cargo test                                │ase needed)
-                                            │  * 11c3693 feat: add user settings module
-────────────────────────────────────────────│   src/lib.rs | 5 +++++
-❯                                           │   1 file changed, 5 insertions(+)
-────────────────────────────────────────────│✓ Merged to main (1 commit, 1 file, +5)
-   ~/w/acme.api  !–|  @+5                   │◎ Removing api worktree & branch in backgrou
-  http://localhost:13270  | Opus 4.5  🌕    │nd (same commit as main, _)
-  10%                                       │○ Switched to worktree for main @ ~/w/acme
-                                            │
+      23  }                                 │dd_zeros
+                                            │------------
+⏺ Now let me run the tests to verify.       │     Summary [   0.002s] 2 tests run: 2 pass
+                                            │ed, 0 skipped
+⏺ Bash(cargo test)                          │◎ Merging 1 commit to main @ 80264c4 (no reb
+  ⎿  (No output)                            │ase needed)
+                                            │  * 80264c4 feat: add user settings module
+⏺ All tests pass. I added test_add_zeros    │   src/lib.rs | 5 +++++
+  which verifies that add(0, 0) returns 0.  │   1 file changed, 5 insertions(+)
+                                            │✓ Merged to main (1 commit, 1 file, +5)
+────────────────────────────────────────────│◎ Removing api worktree & branch in backgrou
+❯ commit this                               │nd (same commit as main, _)
+────────────────────────────────────────────│○ Switched to worktree for main @ ~/w/acme
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main               VERTICAL 
-      20 +    fn test_add_zeros() {         │  cargo nextest run
-                                            │    Finished `test` profile [unoptimized + d
-      21 +        assert_eq!(add(0, 0), 0); │ebuginfo] target(s) in 0.02s
-                                            │    Starting 2 tests across 1 binary
+ Zellij (outstanding-diplodocus)  main  billing  main                  VERTICAL 
+      17      }                             │  cargo nextest run
+      18 +                                  │    Finished `test` profile [unoptimized + d
+      19 +    #[test]                       │ebuginfo] target(s) in 0.02s
+      20 +    fn test_add_zeros() {         │    Starting 2 tests across 1 binary
+      21 +        assert_eq!(add(0, 0       │        PASS [   0.001s] acme::tests::test_a
+         +), 0);                            │dd
       22 +    }                             │        PASS [   0.001s] acme::tests::test_a
-                                            │dd
-      23  }                                 │        PASS [   0.001s] acme::tests::test_a
-                                            │dd_zeros
-⏺ Added a test test_add_zeros that verifies │------------
-the add function correctly handles adding tw│     Summary [   0.002s] 2 tests run: 2 pass
-o zeros. You can run the tests with:        │ed, 0 skipped
-                                            │◎ Merging 1 commit to main @ 11c3693 (no reb
-  cargo test                                │ase needed)
-                                            │  * 11c3693 feat: add user settings module
-────────────────────────────────────────────│   src/lib.rs | 5 +++++
-❯                                           │   1 file changed, 5 insertions(+)
-────────────────────────────────────────────│✓ Merged to main (1 commit, 1 file, +5)
-   ~/w/acme.api  !–|  @+5                   │◎ Removing api worktree & branch in backgrou
-  http://localhost:13270  | Opus 4.5  🌕    │nd (same commit as main, _)
-  10%                                       │○ Switched to worktree for main @ ~/w/acme
-                                            │
+      23  }                                 │dd_zeros
+                                            │------------
+⏺ Now let me run the tests to verify.       │     Summary [   0.002s] 2 tests run: 2 pass
+                                            │ed, 0 skipped
+⏺ Bash(cargo test)                          │◎ Merging 1 commit to main @ 80264c4 (no reb
+  ⎿  (No output)                            │ase needed)
+                                            │  * 80264c4 feat: add user settings module
+⏺ All tests pass. I added test_add_zeros    │   src/lib.rs | 5 +++++
+  which verifies that add(0, 0) returns 0.  │   1 file changed, 5 insertions(+)
+                                            │✓ Merged to main (1 commit, 1 file, +5)
+────────────────────────────────────────────│◎ Removing api worktree & branch in backgrou
+❯ commit this                               │nd (same commit as main, _)
+────────────────────────────────────────────│○ Switched to worktree for main @ ~/w/acme
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main               VERTICAL 
-      20 +    fn test_add_zeros() {         │  cargo nextest run
-                                            │    Finished `test` profile [unoptimized + d
-      21 +        assert_eq!(add(0, 0), 0); │ebuginfo] target(s) in 0.02s
-                                            │    Starting 2 tests across 1 binary
+ Zellij (outstanding-diplodocus)  main  billing  main                  VERTICAL 
+      17      }                             │  cargo nextest run
+      18 +                                  │    Finished `test` profile [unoptimized + d
+      19 +    #[test]                       │ebuginfo] target(s) in 0.02s
+      20 +    fn test_add_zeros() {         │    Starting 2 tests across 1 binary
+      21 +        assert_eq!(add(0, 0       │        PASS [   0.001s] acme::tests::test_a
+         +), 0);                            │dd
       22 +    }                             │        PASS [   0.001s] acme::tests::test_a
-                                            │dd
-      23  }                                 │        PASS [   0.001s] acme::tests::test_a
-                                            │dd_zeros
-⏺ Added a test test_add_zeros that verifies │------------
-the add function correctly handles adding tw│     Summary [   0.002s] 2 tests run: 2 pass
-o zeros. You can run the tests with:        │ed, 0 skipped
-                                            │◎ Merging 1 commit to main @ 11c3693 (no reb
-  cargo test                                │ase needed)
-                                            │  * 11c3693 feat: add user settings module
-────────────────────────────────────────────│   src/lib.rs | 5 +++++
-❯                                           │   1 file changed, 5 insertions(+)
-────────────────────────────────────────────│✓ Merged to main (1 commit, 1 file, +5)
-   ~/w/acme.api  !–|  @+5                   │◎ Removing api worktree & branch in backgrou
-  http://localhost:13270  | Opus 4.5  🌕    │nd (same commit as main, _)
-  10%                                       │○ Switched to worktree for main @ ~/w/acme
-                                            │
+      23  }                                 │dd_zeros
+                                            │------------
+⏺ Now let me run the tests to verify.       │     Summary [   0.002s] 2 tests run: 2 pass
+                                            │ed, 0 skipped
+⏺ Bash(cargo test)                          │◎ Merging 1 commit to main @ 80264c4 (no reb
+  ⎿  (No output)                            │ase needed)
+                                            │  * 80264c4 feat: add user settings module
+⏺ All tests pass. I added test_add_zeros    │   src/lib.rs | 5 +++++
+  which verifies that add(0, 0) returns 0.  │   1 file changed, 5 insertions(+)
+                                            │✓ Merged to main (1 commit, 1 file, +5)
+────────────────────────────────────────────│◎ Removing api worktree & branch in backgrou
+❯ commit this                               │nd (same commit as main, _)
+────────────────────────────────────────────│○ Switched to worktree for main @ ~/w/acme
+   ~/w/acme.api  !–|  @+5  http://localho…  │
                                             │acme ❯
-  ESC  Select pane 
+  Ctrl c  Select pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
+ Zellij (outstanding-diplodocus)  main  billing  main 
 
-  Welcome to Opus 4.5
+⏺ Bash(cargo test 2>&1; echo "exit: $?")
+  ⎿  exit: 0
 
-❯ Format billing amounts with currency symbols
+⏺ Bash(cargo test -- --nocapture 2>&1)
+  ⎿  (No output)
 
-⏺ I'll explore the codebase to understand the current billing amount formatting and then
-  implement currency symbol formatting.
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No output)
 
-  Explore(Explore billing amount handling)
-  ⎿  Read 19 lines
-           18 /private/var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2
-     commit 94e804f03a8f36440f1a4f077dfeb2d34e38e54e
-     +64 more tool uses (ctrl+o to expand)
-     ctrl+b to run in background
+⏺ Bash(cargo test 2>&1 | cat)
+  ⎿  (No output)
 
-✶ Forming… (ctrl+c to interrupt · 56s · ↓ 1.6k tokens)
+✶ Cascading… (47s · ↓ 966 tokens · thinking)
+  ⎿  Tip: Use /btw to ask a quick side question without interrupting Claude's current
+     work
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯ Try "how do I log an error?"
+❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.5  🌕 10%
+   ~/w/acme.billing  !✗  @+56  ↓1  | Opus 4.6  🌕 9%
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
+ Zellij (outstanding-diplodocus)  main  billing  main 
 
-  Welcome to Opus 4.5
+⏺ Bash(cargo test -- --nocapture 2>&1)
+  ⎿  (No output)
 
-❯ Format billing amounts with currency symbols
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No output)
 
-⏺ I'll explore the codebase to understand the current billing amount formatting and then
-  implement currency symbol formatting.
+⏺ Bash(cargo test 2>&1 | cat)
+  ⎿  (No output)
 
-  Explore(Explore billing amount handling)
-  ⎿  Read 19 lines
-           18 /private/var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2
-     commit 94e804f03a8f36440f1a4f077dfeb2d34e38e54e
-     +64 more tool uses (ctrl+o to expand)
-     ctrl+b to run in background
+⏺ Bash(cargo test 2>&1 | tee /tmp/test_output.txt)
+  ⎿  (No output)
 
-✶ Forming… (ctrl+c to interrupt · 57s · ↓ 1.6k tokens)
+✳ Cascading… (49s · ↑ 1.0k tokens · thinking)
+  ⎿  Tip: Use /btw to ask a quick side question without interrupting Claude's current
+     work
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯ Try "how do I log an error?"
+❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.5  🌕 10%
+   ~/w/acme.billing  !✗  @+56  ↓1  | Opus 4.6  🌕 9%
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
+ Zellij (outstanding-diplodocus)  main  billing  main 
 
-  Welcome to Opus 4.5
+⏺ Bash(cargo test -- --nocapture 2>&1)
+  ⎿  (No output)
 
-❯ Format billing amounts with currency symbols
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No output)
 
-⏺ I'll explore the codebase to understand the current billing amount formatting and then
-  implement currency symbol formatting.
+⏺ Bash(cargo test 2>&1 | cat)
+  ⎿  (No output)
 
-  Explore(Explore billing amount handling)
-  ⎿  Read 19 lines
-           18 /private/var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2
-     commit 94e804f03a8f36440f1a4f077dfeb2d34e38e54e
-     +64 more tool uses (ctrl+o to expand)
-     ctrl+b to run in background
+⏺ Bash(cargo test 2>&1 | tee /tmp/test_output.txt)
+  ⎿  (No output)
 
-✶ Forming… (ctrl+c to interrupt · 57s · ↓ 1.6k tokens)
+✳ Cascading… (49s · ↑ 1.0k tokens · thinking)
+  ⎿  Tip: Use /btw to ask a quick side question without interrupting Claude's current
+     work
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯ Try "how do I log an error?"
+❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.5  🌕 10%
+   ~/w/acme.billing  !✗  @+56  ↓1  | Opus 4.6  🌕 9%
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
+ Zellij (outstanding-diplodocus)  main  billing  main 
 
-  Welcome to Opus 4.5
+⏺ Bash(cargo test -- --nocapture 2>&1)
+  ⎿  (No output)
 
-❯ Format billing amounts with currency symbols
+⏺ Bash(cargo test 2>&1 || true)
+  ⎿  (No output)
 
-⏺ I'll explore the codebase to understand the current billing amount formatting and then
-  implement currency symbol formatting.
+⏺ Bash(cargo test 2>&1 | cat)
+  ⎿  (No output)
 
-⏺ Explore(Explore billing amount handling)
-  ⎿  Read 19 lines
-           18 /private/var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2
-     commit 94e804f03a8f36440f1a4f077dfeb2d34e38e54e
-     +64 more tool uses (ctrl+o to expand)
-     ctrl+b to run in background
+⏺ Bash(cargo test 2>&1 | tee /tmp/test_output.txt)
+  ⎿  (No output)
 
-✢ Forming… (ctrl+c to interrupt · 57s · ↓ 1.6k tokens)
+✢ Cascading… (49s · ↑ 1.0k tokens · thinking)
+  ⎿  Tip: Use /btw to ask a quick side question without interrupting Claude's current
+     work
 
 ─────────────────────────────────────────────────────────────────────────────────────────
-❯ Try "how do I log an error?"
+❯
 ─────────────────────────────────────────────────────────────────────────────────────────
-   ~/w/acme.billing  _  http://localhost:16156  | Opus 4.5  🌕 10%
+   ~/w/acme.billing  !✗  @+56  ↓1  | Opus 4.6  🌕 9%
 
-  ESC  Select pane 
+  Ctrl c  Select pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-acme.feature ❯ echo '// User settings module' >> src/lib.rs
-
-acme.feature ❯ wt step commit
-◎ Generating commit message and committing changes... (1 file, +1)
-  feat: add user settings module
-
-  Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
-
-acme.feature ❯ git push -u origin feature
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2qw/.demo-wt-zellij-omni
+ Zellij (outstanding-diplodocus)  main  billing  main 
 bus/remote.git
  * [new branch]      feature -> feature
 branch 'feature' set up to track 'origin/feature'.
 
-acme.feature ❯
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-acme.feature ❯ echo '// User settings module' >> src/lib.rs
-
-acme.feature ❯ wt step commit
-◎ Generating commit message and committing changes... (1 file, +1)
-  feat: add user settings module
-
-  Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
-
-acme.feature ❯ git push -u origin feature
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2qw/.demo-wt-zellij-omni
-bus/remote.git
- * [new branch]      feature -> feature
-branch 'feature' set up to track 'origin/feature'.
-
-acme.feature ❯
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-acme.feature ❯ echo '// User settings module' >> src/lib.rs
-
-acme.feature ❯ wt step commit
-◎ Generating commit message and committing changes... (1 file, +1)
-  feat: add user settings module
-
-  Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
-
-acme.feature ❯ git push -u origin feature
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2qw/.demo-wt-zellij-omni
-bus/remote.git
- * [new branch]      feature -> feature
-branch 'feature' set up to track 'origin/feature'.
-
-acme.feature ❯
-                                                                 Ctrl +  <n> New Pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-acme.feature ❯ echo '// User settings module' >> src/lib.rs
-
-acme.feature ❯ wt step commit
-◎ Generating commit message and committing changes... (1 file, +1)
-  feat: add user settings module
-
-  Add placeholder module for user profile settings.
-✓ Committed changes @ 74989cb
-
-acme.feature ❯ git push -u origin feature
-Enumerating objects: 7, done.
-Counting objects: 100% (7/7), done.
-Delta compression using up to 16 threads
-Compressing objects: 100% (3/3), done.
-Writing objects: 100% (4/4), 397 bytes | 397.00 KiB/s, done.
-Total 4 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
-To /var/folders/wf/s6ycxvvs4ln8qsdbfx40hnc40000gn/T/wt-demo-drtjq2qw/.demo-wt-zellij-omni
-bus/remote.git
- * [new branch]      feature -> feature
-branch 'feature' set up to track 'origin/feature'.
-
-acme.feature ❯
-  ESC  Select pane 
-────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
-
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+ Zellij (outstanding-diplodocus)  main  billing  main 
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      http://localhost:15690  dd3ef4f6  3d
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+ Zellij (outstanding-diplodocus)  main  billing  main 
+bus/remote.git
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ wt list --full
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-+ beta     +   ↓|      +2            ↓1     |     http://localhost:18012  df12bf7d  5d
+ Zellij (outstanding-diplodocus)  main  billing  main 
+ * [new branch]      feature -> feature
+branch 'feature' set up to track 'origin/feature'.
 
-○ Showing 8 worktrees, 4 with changes, 3 ahead, 2 columns hidden
-
-acme.auth ❯ wt remove
-◎ Removing auth worktree & branch in background (same commit as main, _)
+acme.feature ❯ wt remove
+◎ Removing feature worktree in background
+↳ Branch unmerged; to delete, run wt remove -D feature
 ○ Switched to worktree for main @ ~/w/acme
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ wt list --full
 
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+ Zellij (outstanding-diplodocus)  main  billing  main 
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^⇡                                    ⇡1      http://localhost:12107
-+ feature      ↕|                ↑1  ↓1    +1          |     http://localhost:13054
-+ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7           http://localhost:15276
-+ billing      ⊂                     ↓1                      http://localhost:16156
-+ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓2                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^⇡                                    ⇡1          http://localhost:12107
++ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7               http://localhost:15276
++ auth         ⊂|                    ↓1                |         http://localhost:15851
++ billing   !  ✗      +56            ↓1                          http://localhost:16156
++ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓2                |         http://localhost:18012
 
-○ Showing 6 worktrees, 3 with changes, 3 ahead, 4 columns hidden
+○ Showing 6 worktrees, 4 with changes, 2 ahead, 5 columns hidden
 
 acme ❯
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+ Zellij (outstanding-diplodocus)  main  billing  main 
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^⇡                                    ⇡1      http://localhost:12107
-+ feature      ↕|                ↑1  ↓1    +1          |     http://localhost:13054
-+ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7           http://localhost:15276
-+ billing      ⊂                     ↓1                      http://localhost:16156
-+ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓2                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^⇡                                    ⇡1          http://localhost:12107
++ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7               http://localhost:15276
++ auth         ⊂|                    ↓1                |         http://localhost:15851
++ billing   !  ✗      +56            ↓1                          http://localhost:16156
++ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓2                |         http://localhost:18012
 
-○ Showing 6 worktrees, 3 with changes, 3 ahead, 4 columns hidden
+○ Showing 6 worktrees, 4 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ done!
                                                                  Ctrl +  <n> New Pane 
 ────────────────────────────────────────────────────────────────────────────────
- Zellij (fabulous-apple)  main  billing  feature  main 
-@ main         ^|                                      |     http://localhost:12107
-+ feature      ↑|                ↑1        +1          |     http://localhost:13054
-+ hooks    +!  ↑       +2        ↑1       +12   -7           http://localhost:15276
-+ api       !  –|      +5                              |     http://localhost:13270
-+ billing      _                                             http://localhost:16156
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓1                |     http://localhost:18012
+ Zellij (outstanding-diplodocus)  main  billing  main 
+@ main         ^|                                      |         http://localhost:12107
++ hooks    +!  ↑       +2        ↑1       +12   -7               http://localhost:15276
++ api       !  –|      +5                              |         http://localhost:13270
++ auth         _|                                      |         http://localhost:15851
++ billing   !  –      +56                                        http://localhost:16156
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓1                |         http://localhost:18012
 
-○ Showing 7 worktrees, 4 with changes, 3 ahead, 4 columns hidden
+○ Showing 7 worktrees, 5 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  URL                     CI
-@ main         ^⇡                                    ⇡1      http://localhost:12107
-+ feature      ↕|                ↑1  ↓1    +1          |     http://localhost:13054
-+ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7           http://localhost:15276
-+ billing      ⊂                     ↓1                      http://localhost:16156
-+ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1      http://localhost:15690
-+ beta     +   ↓|      +2            ↓2                |     http://localhost:18012
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  URL
+@ main         ^⇡                                    ⇡1          http://localhost:12107
++ hooks    +!  ↕       +2        ↑1  ↓1   +12   -7               http://localhost:15276
++ auth         ⊂|                    ↓1                |         http://localhost:15851
++ billing   !  ✗      +56            ↓1                          http://localhost:16156
++ alpha     !? ↕⇡    +105  -14   ↑5  ↓1  +264   -3   ⇡1          http://localhost:15690
++ beta     +   ↓|      +2            ↓2                |         http://localhost:18012
 
-○ Showing 6 worktrees, 3 with changes, 3 ahead, 4 columns hidden
+○ Showing 6 worktrees, 4 with changes, 2 ahead, 5 columns hidden
 
 acme ❯ done!
                                                                  Ctrl +  <n> New Pane 

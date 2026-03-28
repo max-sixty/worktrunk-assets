@@ -332,6 +332,81 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
 
 acme ❯
 
@@ -435,11 +510,11 @@ acme ❯ wt list
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -460,11 +535,11 @@ acme ❯
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -485,11 +560,11 @@ acme ❯ wt switch alpha
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -510,11 +585,11 @@ acme ❯ wt switch alpha
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -535,11 +610,11 @@ acme.alpha ❯
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -560,11 +635,11 @@ acme.alpha ❯ wt switch --create api
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -585,11 +660,11 @@ acme.alpha ❯ wt switch --create api
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -598,7 +673,7 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯
 
@@ -610,11 +685,11 @@ acme.api ❯
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -623,7 +698,7 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
 
@@ -635,11 +710,11 @@ acme.api ❯ wt list --full
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -648,7 +723,7 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
 
@@ -660,11 +735,11 @@ acme.api ❯ wt list --full
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -673,23 +748,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -698,23 +773,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -723,23 +798,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -748,23 +823,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -773,23 +848,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -798,23 +873,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -823,23 +898,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -848,23 +923,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -873,23 +948,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -898,23 +973,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -923,23 +998,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -948,23 +1023,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -973,23 +1048,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -998,23 +1073,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -1023,23 +1098,23 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
   Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     deb22ff9  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               051750e9  2h    feat: add math operati…
-+ billing      _|                           |     deb22ff9  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      8ed63774  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     5e72d5b9  5d    Add project hooks
+@ main         ^|                           |     bc1f1afc  1d    docs: add development…
++ hooks    +!  ↑       +2        ↑1               71741113  2h    feat: add math operati…
++ billing      _|                           |     bc1f1afc  1d    docs: add development…
++ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      7e70e432  3d    docs: add FAQ section
++ beta     +   ↓|      +2            ↓1     |     9ff373f0  5d    Add project hooks
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -1048,12 +1123,12 @@ acme ❯ wt switch alpha
 
 acme.alpha ❯ wt switch --create api
 ✓ Created branch api from main and worktree @ ~/w/acme.api
-◎ Running post-start hooks: project:dev
+◎ Running post-start: project:dev
 
 acme.api ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Remote⇅  CI  Commit    Age
-@ api          _                                                 deb22ff9  1d
-^ main         ^|                                      |         deb22ff9  1d
-+ hooks    +!  ↑       +2        ↑1       +12   -7               051750e9  2h
-+ billing      _|                                      |         deb22ff9  1d
+  Branch   Status        HEAD±    main↕     main…±  Summary                   Remote⇅  CI
+@ api          _
+^ main         ^|                                                                |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations and…
++ billing      _|                                                                |
 ────────────────────────────────────────────────────────────────────────────────
