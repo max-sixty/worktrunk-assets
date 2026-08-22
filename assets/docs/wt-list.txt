@@ -357,6 +357,31 @@
 
 
 ────────────────────────────────────────────────────────────────────────────────
+>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+────────────────────────────────────────────────────────────────────────────────
 
 acme ❯
 
@@ -459,12 +484,12 @@ acme ❯ wt list
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -484,12 +509,12 @@ acme ❯
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -509,12 +534,12 @@ acme ❯ wt list --full
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
@@ -534,24 +559,24 @@ acme ❯ wt list --full
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯
 
@@ -559,24 +584,24 @@ acme ❯
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯ wt list --branches
 
@@ -584,24 +609,24 @@ acme ❯ wt list --branches
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯ wt list --branches
 
@@ -609,101 +634,101 @@ acme ❯ wt list --branches
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯ wt list --branches
-  Branch        Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main              ^|                           |     6f079bd7  1d    docs: add develop…
+  Branch        Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age
+@ main              ^|                                      |     87f4bbf  1d
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯ wt list --branches
-  Branch        Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main              ^|                           |     6f079bd7  1d    docs: add develop…
+  Branch        Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age
+@ main              ^|                                      |     87f4bbf  1d
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯ wt list --branches
-  Branch        Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main              ^|                           |     6f079bd7  1d    docs: add develop…
+  Branch        Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age
+@ main              ^|                                      |     87f4bbf  1d
 ────────────────────────────────────────────────────────────────────────────────
 
 acme ❯ wt list
-  Branch   Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main         ^|                           |     6f079bd7  1d    docs: add development…
-+ hooks    +!  ↑       +2        ↑1               0066e4d0  2h    feat: add math operati…
-+ billing      _|                           |     6f079bd7  1d    docs: add development…
-+ alpha     !? ↑⇡    +105  -14   ↑5       ⇡1      d850061a  3d    docs: add FAQ section
-+ beta     +   ↓|      +2            ↓1     |     f61d1566  5d    Add project hooks
+  Branch   Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age   Message
+@ main         ^|                                      |     87f4bbf  1d    docs: add de…
++ hooks    +!  ↑       +2        ↑1       +12   -7           9066cc4  2h    feat: add ma…
++ billing      _|                                      |     87f4bbf  1d    docs: add de…
++ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3   ⇡1      e420160  3d    docs: add FA…
++ beta     +   ↓|      +2            ↓1                |     34bc807  5d    Add project…
 
 ○ Showing 5 worktrees, 3 with changes, 2 ahead, 1 column hidden
 
 acme ❯ wt list --full
-  Branch   Status        HEAD±    main↕     main…±  Summary         Remote⇅  CI  Commit
-@ main         ^|                                                      |         6f079bd7
-+ hooks    +!  ↑       +2        ↑1       +12   -7  Add math oper…               0066e4d0
-+ billing      _|                                                      |         6f079bd7
-+ alpha     !? ↑⇡    +105  -14   ↑5      +264   -3  Add utility f…   ⇡1          d850061a
-+ beta     +   ↓|      +2            ↓1             Add TODO note…     |         f61d1566
+  Branch   Status        HEAD±    main↕     main…±  Summary                Remote⇅  CI
+@ main         ^|                                                             |
++ hooks    +!  ↑       +2        ↑1       +12   -7  Add math operations…
++ billing      _|                                                             |
++ alpha     !? ↑⇡    +106  -14   ↑5      +264   -3  Add utility function…   ⇡1
++ beta     +   ↓|      +2            ↓1             Add TODO notes for c…     |
 
-○ Showing 5 worktrees, 3 with changes, 2 ahead, 3 columns hidden
+○ Showing 5 worktrees, 3 with changes, 2 ahead, 4 columns hidden
 
 acme ❯ wt list --branches
-  Branch        Status        HEAD±    main↕  Remote⇅  Commit    Age   Message
-@ main              ^|                           |     6f079bd7  1d    docs: add develop…
+  Branch        Status        HEAD±    main↕     main…±  Remote⇅  Commit   Age
+@ main              ^|                                      |     87f4bbf  1d
 ────────────────────────────────────────────────────────────────────────────────
